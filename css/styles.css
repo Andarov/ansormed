@@ -38,21 +38,10 @@ body {
     align-items: center;
 }
 
-.logo-link {
-    display: inline-block;
-    margin: 0;
-    margin-right: 114px;
-    transition: opacity 0.4s ease;
+.logo-link svg {
+    display: flex;
+    color: #222;
 }
-
-.logo-link:hover {
-    opacity: 0.8;
-}
-
-.logo-link:active {
-    opacity: 0.6;
-}
-
 .site-header-list {
     display: flex;
     align-items: center;
@@ -308,6 +297,11 @@ body {
     align-items: center;
 }
 
+.logo-links svg {
+    display: flex;
+    color: #fff;
+}
+
 .footer-nav {
     list-style: none;
     margin: 0;
@@ -323,28 +317,6 @@ body {
 .footer-link {
     color: #fff;
     text-decoration: none;
-}
-
-.buttom-logo {
-    display: flex;
-    align-items: center;
-    margin: 0;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    margin-right: 16px;
-}
-
-.buttom-logo h3 {
-    padding: 0;
-    margin: 0;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 33px;
-    color: #fff;
 }
 
 .footer-buttom-list {
