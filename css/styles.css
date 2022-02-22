@@ -54,6 +54,8 @@ body {
 .site-header-list {
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .sitenav-list {
@@ -96,7 +98,6 @@ body {
     padding: 12px 24px;
     background-color: #de2e54;
     border-radius: 8px;
-    margin: 0;
     text-decoration: none;
 }
 
@@ -142,7 +143,7 @@ body {
     width: 423px;
     height: 504px;
     background: url(photo_2021-01-22_20-01-13-removebg-preview.png);
-    /* filter: drop-shadow(0px 4px 4px); */
+    filter: drop-shadow(0px 4px 4px);
     background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -209,23 +210,10 @@ body {
     margin: 0;
 }
 
-.hero-links {
-    display: block;
-    font-family: "Open Sans Condensed" "Arial" sans-serif;
-    font-size: 15px;
-    line-height: 22px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 12px 24px;
-    background-color: #de2e54;
-    border: #de2e54;
-    border-radius: 8px;
-    margin: 0;
+.main-hero {
+    display: inline;
     margin-left: 650px;
     margin-right: 650px;
-    text-align: center;
-    text-decoration: none;
 }
 
 .footer-top {
