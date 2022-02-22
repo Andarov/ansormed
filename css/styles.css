@@ -42,6 +42,10 @@ body {
     display: flex;
     color: #222;
 }
+
+.logo-link svg:hover {
+    color: #de2e54;
+}
 .site-header-list {
     display: flex;
     align-items: center;
@@ -78,16 +82,13 @@ body {
 }
 
 .sitenav-link:hover {
-    color: #ff7500;
+    color: #de2e54;
 }
 
 .sitenav-link:active {
     opacity: 0.6;
 }
 
-.sitenav-link:active {
-    opacity: 0.6;
-}
 
 .hero-link {
     display: inline-block;
@@ -100,13 +101,16 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #de2e54;
+    border-color: #de2e54;
     color: #fff;
     transition: opacity 0.4s ease;
     margin: 0;
 }
 
 .hero-link:hover {
-    opacity: 0.8;
+    border: #de2e54 2px solid;
+    background-color: #fff;
+    color: #de2e54;
 }
 
 .hero-link:active {
