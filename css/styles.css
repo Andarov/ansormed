@@ -41,11 +41,17 @@ body {
 .logo-link svg {
     display: flex;
     color: #222;
+    transition: color 0.4 ease;
 }
 
 .logo-link svg:hover {
     color: #de2e54;
 }
+
+.logo-link svg:active {
+    opacity: 0.6;
+}
+
 .site-header-list {
     display: flex;
     align-items: center;
@@ -89,7 +95,6 @@ body {
     opacity: 0.6;
 }
 
-
 .hero-link {
     display: inline-block;
     flex: none;
@@ -101,7 +106,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #de2e54;
-    border-color: #de2e54;
+    border: #de2e54 2px solid;
     color: #fff;
     transition: opacity 0.4s ease;
     margin: 0;
@@ -114,6 +119,9 @@ body {
 }
 
 .hero-link:active {
+    background-color: #de2e54;
+    border: #de2e54 2px solid;
+    color: #fff;
     opacity: 0.6;
 }
 
@@ -278,6 +286,16 @@ body {
     margin-right: 88px;
 }
 
+.top-link:hover {
+    background-color: #de2e54;
+    border: #de2e54 2px solid;
+    border-radius: 8px;
+}
+
+.top-link:active {
+    opacity: 0.6;
+}
+
 .top-link:last-child {
     margin: 0;
 }
@@ -304,6 +322,16 @@ body {
 .logo-links svg {
     display: flex;
     color: #fff;
+    transition: color 0.4s ease;
+}
+
+.logo-links svg:hover {
+    color: #de2e54;
+}
+
+.logo-links svg:active {
+    opacity: 0.6;
+    color: #fff;
 }
 
 .footer-nav {
@@ -321,6 +349,16 @@ body {
 .footer-link {
     color: #fff;
     text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.footer-link:hover {
+    color: #de2e54;
+}
+
+.footer-link:active {
+    opacity: 0.6;
+    color: #fff;
 }
 
 .footer-buttom-list {
