@@ -333,6 +333,10 @@ body {
     color: #fff;
 }
 
+.footer-buttom-list {
+    margin: 0;
+}
+
 .footer-nav {
     list-style: none;
     margin: 0;
