@@ -41,7 +41,7 @@ body {
 .logo-link svg {
     display: flex;
     color: #222;
-    transition: color 0.4 ease;
+    transition: color 0.4s ease;
 }
 
 .logo-link svg:hover {
@@ -148,7 +148,7 @@ body {
 .top-items h2 {
     width: 500px;
     font-size: 36px;
-    font-family: "Open Sans Condensed" "Arial" sans-serif;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-weight: bold;
     line-height: 43px;
     margin: 0;
@@ -197,7 +197,7 @@ body {
 }
 .medium h3 {
     font-size: 36px;
-    font-family: "Opeb Sans Condensed" "Arial" sans-serif;
+    font-family: "Opeb Sans Condensed", "Arial", sans-serif;
     font-weight: bold;
     line-height: 43px;
     color: #000;
@@ -227,7 +227,7 @@ body {
 
 .top-info h4 {
     font-size: 24px;
-    font-family: "Opeb Sans Condensed" "Arial" sans-serif;
+    font-family: "Opeb Sans Condensed", "Arial", sans-serif;
     font-weight: bold;
     line-height: 29px;
     color: #222;
@@ -259,7 +259,7 @@ body {
 }
  
 .footer-top-item h2 {
-    font-family: "Open Sans Condensed" "Arial" sans-serif;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-size: 36px;
     font-weight: bold;
     line-height: 43px;
@@ -269,7 +269,7 @@ body {
 }
 
 .top-link {
-    font-family: "Open Sans Condensed" "Arial" sans-serif;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
     font-size: 15px;
     font-weight: bold;
     line-height: 18px;
