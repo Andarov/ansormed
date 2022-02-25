@@ -162,6 +162,31 @@ body {
     margin-bottom: 36px;
 }
 
+.hero-links {
+    display: inline-block;
+    flex: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #de2e54;
+    border: #de2e54 2px solid;
+    color: #fff;
+    transition: opacity 0.4s ease, border 0.4s ease, color 0.4s ease;
+    margin: 0;
+}
+
+.hero-links:hover {
+    opacity: 0.8;
+}
+
+.hero-links:active {
+    opacity: 0.6;
+}
+
 .hero-img {
     padding-top: 29px;
     width: 423px;
