@@ -100,7 +100,7 @@ body {
     display: inline-block;
     flex: none;
     padding: 12px 24px;
-    border-radius: 4px;
+    border-radius: 8px;
     font-size: 15px;
     font-weight: bold;
     line-height: 22px;
@@ -137,13 +137,11 @@ body {
 .top-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .top-items {
     width: 500px;
     padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .top-items h2 {
@@ -165,6 +163,7 @@ body {
 }
 
 .hero-img {
+    padding-top: 29px;
     width: 423px;
     height: 504px;
     /* background: url(photo_2021-01-22_20-01-13-removebg-preview.png); */
