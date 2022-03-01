@@ -189,6 +189,8 @@ body {
     max-width: 864px; 
     padding: 0;
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .medium-heading {
